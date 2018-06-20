@@ -1,0 +1,35 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@import "vars";
+@import "typography";
+@import "hero";
+@import "a";
+@import "three";
+@import "img-right";
+@import "img-left";
+@import "cards";
+@import "form";
+@import "footer";
+
+$light: #9b99cb;
+$dark: #292772;
+
+.btn-primary{
+    border-color: darken($dark, 35);
+    background-color: darken($dark, 10);
+    text-transform: capitalize;
+    &:hover{
+        border-color: darken($light, 25);
+        background-color: $light;
+    }
+    &:active{
+        border-color: darken($light, 25);
+        background-color: $light;
+    }
+}
+
+h1, h2{
+    text-transform: capitalize;
+}

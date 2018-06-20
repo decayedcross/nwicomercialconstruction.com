@@ -1,0 +1,19 @@
+---
+header: An overview of our residential services
+columns:
+ - header: Custom Home Contracting
+   subheader: No matter how many houses you look at, you will never find every feature you want in a home. Custom residential contracting is the only way to check off your must-list. We work with you from start to finish to create a home that reflects your personality.
+   img: assets/img/4-1.jpg
+   btn_link: "#form-section"
+   btn_text: Get a Quote
+ - header: Custom Home Framing
+   subheader: We can provide custom framing for your new house or your expansion using locally-sourced or sustainable wood, depending on your preference. We can also provide other carpentry services, such as custom decks, new fences, and fence repairs.
+   img: assets/img/4-2.jpg
+   btn_link: "#form-section"
+   btn_text: Get a Quote
+ - header: Additions
+   subheader: We can build additions to your house if your house feels too small or you have a growing family and need more space. We service popular family-friendly towns in Indiana, including Dyer, New Buffalo, Cedar Lake, Crown Point, and Valparaiso.
+   img: assets/img/4-3.jpg
+   btn_link: "#form-section"
+   btn_text: Get a Quote
+---

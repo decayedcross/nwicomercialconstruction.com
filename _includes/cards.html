@@ -1,0 +1,14 @@
+<div class="cards container">
+    <div class="wrap row">
+        <h1>{{ include.data.header }}</h1>
+        {% for col in include.data.columns %}
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">{{ col.text }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

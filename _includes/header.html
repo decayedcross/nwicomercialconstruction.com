@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ site.twitter }}" />
+  <meta name="twitter:creator" content="{{ site.twitter }}" />
+
+  <meta property="og:url" content="https://{{ site.domain }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.desc }}" />
+  <meta property="og:image" content="https://{{ site.domain }}/assets/img/share.jpg" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ site.addressLocality }}",
+        "addressRegion": "{{ site.addressRegion }}",
+        "postalCode": "{{ site.postalCode }}",
+        "streetAddress": "{{ site.streetAddress }}"
+      },
+      "description": "{{ site.desc }}",
+      "name": "{{ site.company_name }}",
+      "telephone": "{{ site.phone_number }}",
+      "openingHours": "{{ site.openingHours }}",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "{{ site.latitude }}",
+        "longitude": "{{ site.longitude }}"
+      },
+      "image": "https://{{ site.domain }}/assets/img/share.jpg",
+      "sameAs": [
+        {% for social in site.social_platforms %}
+          {% if forloop.last == true %}
+            "{{ social.link }}"
+          {% else %}
+            "{{ social.link }}",
+          {% endif %}
+        {% endfor %}
+      ]
+    }
+  </script>
+
+  <meta name="description" content="{{ site.desc }}">
+  <title>{{ site.title }}</title>
+
+  <link rel="canonical" href="https://{{ site.domain }}" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/main.css">
+  <meta name="google-site-verification" content="{{ site.googleSiteVerification }}" />
+</head>
+
+<body>

@@ -1,0 +1,28 @@
+incremental: true
+
+domain: nwiresidentialconstruction.com
+twitter: "@DciPremier"
+title: Residential Construction | Remodelling | Northwest Indiana
+desc:  We provide residential construction services, including kitchenr and bathroom remodels, basement remodels, expansions and additions, and new home constructions. We also provide maintenance and repair services, such as plumbing and electrical work.
+company_name: NWI Residential Construction
+phone_number: (877) 452-7405
+email: dan@nwiresidentialconstruction.com
+address: Northwest Indiana
+address_link: https://goo.gl/maps/498pa3hM9qm
+openingHours: "Mo,Tu,We,Th,Fr,Sat,Sun 00:00-24:00"
+addressLocality: Crown Point
+addressRegion: IN
+postalCode: 46307
+streetAddress: 8318 Morse Ct.
+latitude: 39.879985
+longitude: -86.267538
+googleSiteVerification: E0SSgkJhxOBAGrRTzR5vC7q8sg0xpXj9rhcSxHbDEsw
+social_platforms:
+ - link: "https://www.facebook.com/dan.lumsdon"
+   icon: fab fa-facebook
+ - link: "https://www.linkedin.com/in/daniel-lumsdon-50a5052"
+   icon: fab fa-linkedin-in
+ - link: "https://www.yelp.com/biz/premier-design-and-construction-chicago"
+   icon: fab fa-yelp
+ - link: "https://twitter.com/DciPremier"
+   icon: fab fa-twitter

@@ -1,0 +1,25 @@
+.hero {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .row {
+        text-align: center;
+        padding: 7rem 0 13rem 0;
+        @media (max-width: 576px) {
+            padding: 1rem 0 17rem 0;
+        }
+        h1 {
+            line-height: 3.5rem;
+            color: #fff;
+            font-size: 62px;
+                @media (max-width: 576px) {
+                font-size: 54px;
+            }
+        }
+        p {
+            line-height: 32px;
+            color: #fff;
+            font-size: 1.4rem;
+        }
+    }
+}

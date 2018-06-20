@@ -1,0 +1,46 @@
+.module-a {
+    .wrap {
+        text-align: left;
+        @media (max-width: 576px) {
+            text-align: center;
+        }
+        padding: 3rem 0 3rem 0;
+        img{
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+            padding: 1rem 0 1rem 0;
+        }
+        h1 {
+            line-height: 48px;
+            font-weight: 200;
+            color: rgba(0, 0, 0, 0.85);
+            font-size: 42px;
+            padding: 1rem 0 1rem 0;
+        }
+        p {
+            color: rgba(0, 0, 0, 0.7);
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 21px;
+            padding: 1rem 0 1rem 0;
+        }
+        .inner {
+            text-align: center;
+            h2 {
+                color: $darkblue;
+                line-height: 2rem;
+                font-size: 2rem;
+                font-weight: bold;
+                padding: 0;
+            }
+            p {
+                color: rgba(0, 0, 0, 0.7);
+                line-height: 24px;
+                font-weight: 400;
+                font-size: 17px;
+                padding: 1rem 0 1rem 0;
+            }
+        }
+    }
+}
