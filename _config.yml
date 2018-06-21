@@ -1,12 +1,12 @@
 incremental: true
 
-domain: nwiresidentialconstruction.com
+domain: nwicomercialconstruction.com
 twitter: "@DciPremier"
-title: Residential Construction | Remodelling | Northwest Indiana
-desc:  We provide residential construction services, including kitchenr and bathroom remodels, basement remodels, expansions and additions, and new home constructions. We also provide maintenance and repair services, such as plumbing and electrical work.
-company_name: NWI Residential Construction
+title: NWI Comercial Construction | Northwest Indiana | Construction Services
+desc:  We provide commercial construction services, including design-build projects, new construction, and remodels. We strive to provide eco-friendly and energy-efficient construction solutions throughout Northwest Indiana at a competitive price
+company_name: NWI Comercial Construction
 phone_number: (877) 452-7405
-email: dan@nwiresidentialconstruction.com
+email: Julis@nwicomercialconstruction.com
 address: Northwest Indiana
 address_link: https://goo.gl/maps/498pa3hM9qm
 openingHours: "Mo,Tu,We,Th,Fr,Sat,Sun 00:00-24:00"
@@ -18,11 +18,11 @@ latitude: 39.879985
 longitude: -86.267538
 googleSiteVerification: E0SSgkJhxOBAGrRTzR5vC7q8sg0xpXj9rhcSxHbDEsw
 social_platforms:
- - link: "https://www.facebook.com/dan.lumsdon"
+ - link: "#"
    icon: fab fa-facebook
- - link: "https://www.linkedin.com/in/daniel-lumsdon-50a5052"
+ - link: "https://www.linkedin.com/in/julius-abraham-416374165/"
    icon: fab fa-linkedin-in
- - link: "https://www.yelp.com/biz/premier-design-and-construction-chicago"
+ - link: "https://www.yelp.com/biz/nwi-residential-construction-crown-point"
    icon: fab fa-yelp
- - link: "https://twitter.com/DciPremier"
+ - link: "#"
    icon: fab fa-twitter
